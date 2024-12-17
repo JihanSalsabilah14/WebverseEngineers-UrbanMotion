@@ -1,7 +1,7 @@
 import useFetchData from "../../../hook/useFeatchData";
 import Carousel from "./carouselPL";
 import { Link } from 'react-router-dom';
-import "./PriceList.css";
+import "./Pricelist.css";
 
 // const vehicles = {
 //   mpv: [
