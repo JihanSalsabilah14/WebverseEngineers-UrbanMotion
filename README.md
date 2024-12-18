@@ -51,16 +51,16 @@ Clone repositori ini ke komputer lokal Anda menggunakan git bash:
 
     Pastikan database Anda berjalan, lalu eksekusi perintah berikut:
     i. Jalankan Migrasi:
-       ```bash
-        npm run migrate-up
-       ```
+   ```bash
+   npm run migrate-up
+   ```
 
     ii. Seed Database:
-       ```bash
+     ```bash
         npm run seed-up
-       ```
+   ```
         
-7. Jalankan Aplikasi
+8. Jalankan Aplikasi
     Setelah pengaturan selesai, Anda dapat memulai aplikasi dengan menjalankan:
    ```bash
     npm run dev
