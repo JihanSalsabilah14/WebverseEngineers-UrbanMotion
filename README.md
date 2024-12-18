@@ -25,21 +25,22 @@ Clone repositori ini ke komputer lokal Anda menggunakan git bash:
     cd backend
    ```
 
-4. Instal Dependensi
+3. Instal Dependensi
     Jalankan perintah berikut untuk menginstal semua paket yang diperlukan:
    ```bash
     npm install
    ```
-
+4. Buka File .env.example lalu rename menjadi .env
+5. hapuslah komentar yang ada pada .env
 6. Jalankan Migrasi dan Seed Database
 
     Pastikan database Anda berjalan, lalu eksekusi perintah berikut:
-    1. Jalankan Migrasi:
+    i. Jalankan Migrasi:
        ```bash
         npm run migrate-up
        ```
 
-    3. Seed Database:
+    ii. Seed Database:
        ```bash
         npm run seed-up
        ```
@@ -62,7 +63,7 @@ Clone repositori ini ke komputer lokal Anda menggunakan git bash:
     npm install
    ```
         
-4. Jalankan Aplikasi
+3. Jalankan Aplikasi
     Setelah pengaturan selesai, Anda dapat memulai aplikasi dengan menjalankan:
    ```bash
     npm run dev
