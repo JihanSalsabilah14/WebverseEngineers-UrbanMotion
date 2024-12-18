@@ -32,28 +32,29 @@ Clone repositori ini ke komputer lokal Anda menggunakan git bash:
    ```
 4. Buka File .env.example lalu rename menjadi .env
 5. ubahlah code yang terdapat pada .env menjadi berikut
-      ```bash
-        DB_DBNAME=car_rental
-        DB_USERNAME=root
-        DB_PASSWORD=""
-        DB_HOSTNAME=localhost
-        DB_PORT=3306
-        APP_PORT = 5000
-        NODE_ENV = 'development'
-        JWT_SECRET_KEY= "secret_key"
-        MIDTRANS_SERVER_KEY = "SB-Mid-server-BnJiF_UbSvvwjIW-r2O9TN6G"
-        MIDTRANS_CLIENT_KEY = "SB-Mid-client-qobw5pB_yws0iwwJ"
-        MIDTRANS_CALLBACK_URL = "http://localhost:5173"
-        OAUTH_CLIENT_ID = "192573977992-jlhe722hi206jkaqluais2qrng1lk461.apps.googleusercontent.com"
-        OAUTH_CLIENT_SECRET = "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"
-       ```
+   ```bash
+   DB_DBNAME=car_rental
+   DB_USERNAME=root
+   DB_PASSWORD=""
+   DB_HOSTNAME=localhost
+   DB_PORT=3306
+   APP_PORT = 5000
+   NODE_ENV = 'development'
+   JWT_SECRET_KEY= "secret_key"
+   MIDTRANS_SERVER_KEY = "SB-Mid-server-BnJiF_UbSvvwjIW-r2O9TN6G"
+   MIDTRANS_CLIENT_KEY = "SB-Mid-client-qobw5pB_yws0iwwJ"
+   MIDTRANS_CALLBACK_URL = "http://localhost:5173"
+   OAUTH_CLIENT_ID = "192573977992-jlhe722hi206jkaqluais2qrng1lk461.apps.googleusercontent.com"
+   OAUTH_CLIENT_SECRET = "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"
+   ```
 6. Jalankan Migrasi dan Seed Database
 
     Pastikan database Anda berjalan, lalu eksekusi perintah berikut:
+   
     i. Jalankan Migrasi:
-       ```bash
+     ```bash
        npm run migrate-up
-       ```
+     ```
 
     ii. Seed Database:
      ```bash
